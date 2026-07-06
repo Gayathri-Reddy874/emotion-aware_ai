@@ -20,7 +20,7 @@ A production-structured Streamlit app that detects emotions in text using a fine
 
 ## Overview
 
-This app classifies free-text input into one of seven emotions — **joy, sadness, anger, fear, surprise, disgust, neutral** — using [`j-hartmann/emotion-english-distilroberta-base`](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base), a DistilRoBERTa model fine-tuned for emotion classification.
+This app classifies free-text input into one of seven emotions - **joy, sadness, anger, fear, surprise, disgust, neutral** — using [`j-hartmann/emotion-english-distilroberta-base`](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base), a DistilRoBERTa model fine-tuned for emotion classification.
 
 It started as a single 40-line script and was refactored into a layered architecture with proper error handling, input validation, unit tests, and batch processing — the kind of structure a real product team would expect in a code review.
 
