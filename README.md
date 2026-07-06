@@ -1,6 +1,6 @@
 # 🎭 Emotion AI App
 
-A production-structured Streamlit app that detects emotions in text using a fine-tuned transformer model — with single-text analysis, batch CSV processing, confidence visualizations, and full test coverage.
+A production-structured Streamlit app that detects emotions in text using a fine-tuned transformer model - with single-text analysis, batch CSV processing, confidence visualizations, and full test coverage.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.38-FF4B4B?logo=streamlit&logoColor=white)
