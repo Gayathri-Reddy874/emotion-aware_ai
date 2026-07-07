@@ -26,8 +26,8 @@ It started as a single 40-line script and was refactored into a layered architec
 
 ## Features
 
-- **Single-text analysis** — type any sentence and get the top emotion plus a full confidence breakdown as an interactive bar chart
-- **Batch analysis via CSV upload** — analyze up to 200 rows at once (reviews, survey responses, support tickets) and download results as CSV
+- **Single-text analysis** - type any sentence and get the top emotion plus a full confidence breakdown as an interactive bar chart
+- **Batch analysis via CSV upload** - analyze up to 200 rows at once (reviews, survey responses, support tickets) and download results as CSV
 - **Low-confidence flagging** — warns the user when the model isn't confident, instead of presenting an uncertain guess as fact
 - **Session history** — tracks everything analyzed in the current session
 - **Graceful error handling** — model load failures, oversized input, and malformed CSVs are caught and shown as clear messages, not stack traces
