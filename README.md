@@ -31,7 +31,7 @@ It started as a single 40-line script and was refactored into a layered architec
 - **Low-confidence flagging** - warns the user when the model isn't confident, instead of presenting an uncertain guess as fact
 - **Session history** - tracks everything analyzed in the current session
 - **Graceful error handling** - model load failures, oversized input, and malformed CSVs are caught and shown as clear messages, not stack traces
-- **24 unit tests** covering validation, formatting, and the inference engine (with a mocked model — no GPU or download needed to run tests)
+- **24 unit tests** covering validation, formatting, and the inference engine (with a mocked model - no GPU or download needed to run tests)
 
 ## Architecture
 
