@@ -1,5 +1,5 @@
 """
-Emotion AI App — Streamlit front end.
+Emotion AI App - Streamlit front end.
 
 This module is intentionally "thin": it only handles page layout, user
 input, and rendering. All model logic lives in core/engine.py, all
