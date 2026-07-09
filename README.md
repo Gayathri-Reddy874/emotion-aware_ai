@@ -142,4 +142,4 @@ Results (top emotion + confidence per row) can be downloaded as CSV directly fro
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
