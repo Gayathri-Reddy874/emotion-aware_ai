@@ -62,7 +62,7 @@ emotion-ai-app/
 
 - **Input validation is enforced before inference** - empty or oversized text never reaches the model; the user gets a clear message instead of a crash or a hang.
 - **Typed exceptions instead of raw tracebacks** - model load failures and inference errors are caught and shown as readable messages.
-- **Confidence shown as a sorted bar chart**, not a list of raw scores — makes it easy to see at a glance which emotions the model considered plausible, and by how much.
+- **Confidence shown as a sorted bar chart**, not a list of raw scores - makes it easy to see at a glance which emotions the model considered plausible, and by how much.
 - **Low-confidence flagging** - warns the user when the top prediction isn't confident, instead of presenting an uncertain guess as fact.
 - **Batch mode for real-world use** - a single text box is a demo; a CSV upload with downloadable results is closer to how this would actually be used (triaging reviews or support tickets).
 
