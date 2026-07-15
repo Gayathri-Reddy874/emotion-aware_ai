@@ -56,7 +56,7 @@ emotion-ai-app/
 **Why this structure?** Splitting into layers keeps each piece testable and easy to reason about independently:
 - `core/engine.py` never imports `streamlit`, so it can be tested with a mocked model in milliseconds
 - `core/utils.py` has zero dependencies on Streamlit or transformers — pure functions in, pure values out
-- `app.py` has no `try/except` around raw exceptions — it only ever catches the typed `ValidationError` / `InferenceError` / `ModelLoadError` that the lower layers raise
+- `app.py` has no `try/except` around raw exceptions - it only ever catches the typed `ValidationError` / `InferenceError` / `ModelLoadError` that the lower layers raise
 
 ## Design decisions
 
