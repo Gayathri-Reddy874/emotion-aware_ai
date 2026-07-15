@@ -140,6 +140,13 @@ Results (top emotion + confidence per row) can be downloaded as CSV directly fro
 - [ ] Sentence-level breakdown for multi-sentence input
 - [ ] Streamlit Community Cloud deployment badge + live demo link
 
+
+## Author
+
+**Mallareddygari Gayathri**
+
+AI&ML Engineer
+
 ## License
 
 MIT - see [LICENSE](LICENSE).
