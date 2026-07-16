@@ -39,7 +39,7 @@ The app is split into focused layers instead of one monolithic script:
 
 ```
 emotion-ai-app/
-├── app.py                  # Streamlit UI only — layout, input, rendering
+├── app.py                  # Streamlit UI only - layout, input, rendering
 ├── core/
 │   ├── config.py            # Model settings, thresholds, emotion→color/emoji maps
 │   ├── engine.py             # EmotionEngine: model loading + inference, typed exceptions
